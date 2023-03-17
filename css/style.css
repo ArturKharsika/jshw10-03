@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top-of-menu {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    background: black;
+}
+
+.menu-btn {
+    background: black;
+    border: black;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.menu-btn:hover {
+    background: #fff3;
+}
+
+.open-menu {
+    width: 35px;
+}
+
+.sidebar {
+    width: 500px;
+    border-right: 1px solid #e9e9e9;
+    /*position: absolute;*/
+    left: 0;
+    transform: translate(-500px);
+    transition: transform .3s;
+}
+
+.menu-btn.active {
+    transform: translate(300px);
+    transition: transform .3s;
+}
+
+.top-of-sidebar {
+    background: #221f1f;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0;
+}
+
+.rozetka-icon {
+    margin-right: 190px;
+}
+
+.icon-close {
+    width: 20px;
+}
+
+.user-settings {
+    background: #221f1f;
+}
+
+.user-settings-top {
+    padding: 20px;
+    color: white;
+    background: #221f1f;
+    display: flex;
+    align-items: center;
+}
+
+.user-icon {
+    border: 5px solid #393636;
+    border-radius: 50%;
+    background-color: #393636;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.user {
+    height: 25px;
+    cursor: pointer;
+}
+
+.login {
+    padding-right: 10px;
+    border-right: 2px solid white;
+}
+
+.register {
+    padding-left: 10px;
+}
+
+.donate {
+    background-color: #00a046;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.donate a {
+    color: white;
+    text-transform: uppercase;
+    margin-right: 220px;
+}
+
+.savelife-heart {
+    margin-right: 10px;
+}
+
+.arrow {
+    width: 25px;
+}
+
+.catalog {
+    padding: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.catalog-img {
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+}
+
+.catalog-img img {
+    width: 25px;
+}
+
+.cart {
+    padding: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart-img {
+    border: 1px solid #f5f5f5;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    margin-right: 20px;
+}
+
+.cart-img img {
+    width: 25px;
+}
+
+.language {
+    padding: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #797878;
+}
+
+.language-ru {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 32px;
+    border: 1px solid #e9e9e9;
+    border-radius: 10%;
+    cursor: pointer;
+    color: black;
+}
+
+.language-ua {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    line-height: 32px;
+    border: 1px solid #e9e9e9;
+    border-radius: 10%;
+    cursor: pointer;
+    color: black;
+}
+
+
+.language-ua img {
+    width: 25px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.location {
+    padding: 20px;
+    padding-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e9e9e9;
+}
+
+.city {
+    margin-right: 50px;
+    color:#797878;
+}
+
+.city-name {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.city-name img {
+    width: 25px;
+}
+
+.apps {
+    color: #797878;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 20px;
+}
+
+.click-to-download {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.download-from-google-play {
+    margin-right: 20px;
+}
+
+.social-networks {
+    color: #797878;
+    border-bottom: 1px solid #e9e9e9;
+    padding: 20px;
+}
+
+.click-social-networks {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.click-social-networks img {
+    width: 30px;
+}
+
+.rozetka-social {
+    margin-right: 10px;
+}
